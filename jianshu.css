@@ -1,0 +1,80 @@
+body{
+	margin:0px;
+}
+.top-bar{
+	height: 54px;
+	border: 1px solid #F0F0F0;
+}
+.logo{
+	height: 54px;
+	width: 207px;
+	float: left;
+}
+.logo img{
+	height: 26px;
+	width: 55px;
+	margin-top: 13px;
+	margin-left: 19px
+}
+.center-content{
+	height: 54px;
+	width: 945px;
+	float: left;
+
+}
+.a1{
+	text-decoration: none;
+	color: #ea6F5a;
+	font-size: 18px;
+	line-height: 54px;
+}
+.a2{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin-left: 35px;
+}
+.find{
+	height: 30px;
+	width: 200px;
+	margin-left: 35px;
+	background-color: #EEEEEE;
+	color: #A5A5A5;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+}
+.font{
+	color: #A5A5A5;
+	font-size: 20px;
+	margin-left: 410px;
+	font-weight: bold;
+}
+.a3{
+	color: #A5A5A5;
+	font-size: 15px;
+	margin-left: 25px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.button-container{
+	float: left;
+	margin-top: 7px;
+
+}
+.register{
+	border: 1px solid #ea6F5a;
+	height: 38px;
+	width: 80px;
+	line-height: 38px;
+	
+	text-align: center;
+	border-radius: 5px;
+	
+}
+.a4{
+	text-decoration: none;
+	color: #ea6F5a;
+	font-weight: bold;
+	
+}
