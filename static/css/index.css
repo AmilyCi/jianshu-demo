@@ -73,8 +73,39 @@ body{
 	
 }
 .a4{
+	background-color: white;
+	border: 1px solid #ea6F5a;
+	height: 39px;
+	width: 81px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
 	text-decoration: none;
 	color: #ea6F5a;
 	font-weight: bold;
+	margin-left: 10px;
+}
+.a4:hover{
+	background-color: #FEF7F6;
+
+}
+.a5{
+	background-color: #ea6F5a;
+	border: 1px solid #ea6F5a;
+	height: 39px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	margin-left: 10px
+}
+.text-center{
+	width: 273px;
+	height: 947px;
+	border: 1px solid black;
 	
 }
