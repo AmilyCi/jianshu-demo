@@ -1,6 +1,10 @@
 body{
 	margin:0px;
 }
+
+/*去掉浏览器下input和textarea的聚焦边框：*/
+input,button,select,textarea{outline:none}
+
 .top-bar{
 	height: 54px;
 	border: 1px solid #F0F0F0;
@@ -35,19 +39,34 @@ body{
 	margin-left: 35px;
 }
 .find{
-	height: 30px;
+	height: 35px;
 	width: 200px;
 	margin-left: 35px;
 	background-color: #EEEEEE;
-	color: #A5A5A5;
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
+	-webkit-border-radius:17.5px;
+	-moz-border-radius:17.5px;
+	border-style: none;  /*去掉边框*/
+	font-size: 16px;
+	padding: 0 15px;
 }
+
+/*设置input的placeholder样式*/
+.find::-webkit-input-placeholder {
+	color: #A5A5A5;
+	font-size: 16px;
+}
+.find::-moz-placeholder {
+	color: #A5A5A5;
+	font-size: 16px;
+}
+
 .font{
 	color: #A5A5A5;
 	font-size: 20px;
 	margin-left: 410px;
 	font-weight: bold;
+	/*增加鼠标小手*/
+	cursor: pointer;
 }
 .a3{
 	color: #A5A5A5;
@@ -55,7 +74,8 @@ body{
 	margin-left: 25px;
 	text-decoration: none;
 	font-weight: bold;
-
+	/*增加鼠标小手*/
+	cursor: pointer;
 }
 .button-container{
 	float: left;
@@ -85,10 +105,11 @@ body{
 	color: #ea6F5a;
 	font-weight: bold;
 	margin-left: 10px;
+	/*增加鼠标小手*/
+	cursor: pointer;
 }
 .a4:hover{
 	background-color: #FEF7F6;
-
 }
 .a5{
 	background-color: #ea6F5a;
@@ -101,7 +122,9 @@ body{
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	margin-left: 10px
+	margin-left: 10px;
+	/*增加鼠标小手*/
+	cursor: pointer;
 }
 .text-center{
 	width: 273px;
