@@ -1,14 +1,18 @@
 body{
 	margin:0px;
+	padding: 0px;
 }
 .top-bar{
 	height: 54px;
 	border: 1px solid #F0F0F0;
+	margin: 0px;
 }
 .logo{
 	height: 54px;
 	width: 207px;
 	float: left;
+	margin: 0px;
+
 }
 .logo img{
 	height: 26px;
@@ -20,6 +24,7 @@ body{
 	height: 54px;
 	width: 945px;
 	float: left;
+	margin: 0px;
 
 }
 .a1{
@@ -60,6 +65,9 @@ body{
 .button-container{
 	float: left;
 	margin-top: 7px;
+	width: 200px;
+	height: 54px;
+	margin: 0px;
 
 }
 .register{
@@ -84,7 +92,7 @@ body{
 	text-decoration: none;
 	color: #ea6F5a;
 	font-weight: bold;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 .a4:hover{
 	background-color: #FEF7F6;
@@ -101,11 +109,31 @@ body{
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	margin-left: 10px
+	margin-left: 0px
 }
 .text-center{
-	width: 273px;
-	height: 947px;
-	border: 1px solid black;
-	
+	width: 945px;
+	height: 273px;
+	margin: 0 auto;
+	padding: 0px;
+
 }
+.main-picture{
+	width: 630px;
+	height: 273px;
+	display: block;
+	float: left;
+}
+.small-picture{
+	width: 315px;
+	height: 123px;
+	display: block;
+	float: left;
+}
+.small-picture1{
+	width: 315px;
+	height: 150px;
+	display: block;
+	float: left;
+}
+
