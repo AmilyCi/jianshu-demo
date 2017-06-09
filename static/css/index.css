@@ -2,6 +2,12 @@ body{
 	margin:0px;
 	padding: 0px;
 }
+.main{
+	width: 1366px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 /*去掉浏览器下input和textarea的聚焦边框：*/
 input,button,select,textarea{outline:none}
