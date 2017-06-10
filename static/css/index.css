@@ -1,5 +1,12 @@
 body{
 	margin:0px;
+	padding: 0px;
+}
+.main{
+	width: 1366px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /*去掉浏览器下input和textarea的聚焦边框：*/
@@ -8,11 +15,14 @@ input,button,select,textarea{outline:none}
 .top-bar{
 	height: 54px;
 	border: 1px solid #F0F0F0;
+	margin: 0px;
 }
 .logo{
 	height: 54px;
 	width: 207px;
 	float: left;
+	margin: 0px;
+
 }
 .logo img{
 	height: 26px;
@@ -24,15 +34,16 @@ input,button,select,textarea{outline:none}
 	height: 54px;
 	width: 945px;
 	float: left;
+	margin: 0px;
 
 }
-.a1{
+.home-page{
 	text-decoration: none;
 	color: #ea6F5a;
 	font-size: 18px;
 	line-height: 54px;
 }
-.a2{
+.downlode{
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
@@ -68,7 +79,7 @@ input,button,select,textarea{outline:none}
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
-.a3{
+.login{
 	color: #A5A5A5;
 	font-size: 15px;
 	margin-left: 25px;
@@ -79,39 +90,32 @@ input,button,select,textarea{outline:none}
 }
 .button-container{
 	float: left;
-	margin-top: 7px;
+	width: 200px;
+	height: 54px;
+	position: relative;
 
 }
 .register{
-	border: 1px solid #ea6F5a;
-	height: 38px;
-	width: 80px;
-	line-height: 38px;
-	
-	text-align: center;
-	border-radius: 5px;
-	
-}
-.a4{
 	background-color: white;
 	border: 1px solid #ea6F5a;
-	height: 39px;
+	height: 40px;
 	width: 81px;
 	text-align: center;
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 5px;
-	text-decoration: none;
 	color: #ea6F5a;
 	font-weight: bold;
-	margin-left: 10px;
 	/*增加鼠标小手*/
 	cursor: pointer;
+	margin-top: 7px;
+	/*不明白为什么修改这里的margin-top后面的写文章也跟着修改*/
+	
 }
-.a4:hover{
+.register:hover{
 	background-color: #FEF7F6;
 }
-.a5{
+.write-page{
 	background-color: #ea6F5a;
 	border: 1px solid #ea6F5a;
 	height: 39px;
@@ -122,13 +126,33 @@ input,button,select,textarea{outline:none}
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	margin-left: 10px;
+	margin-left: 5px;
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
 .text-center{
-	width: 273px;
-	height: 947px;
-	border: 1px solid black;
-	
+	width: 945px;
+	height: 273px;
+	margin: 0 auto;
+	padding: 0px;
+
 }
+.main-picture{
+	width: 630px;
+	height: 273px;
+	display: block;
+	float: left;
+}
+.small-picture{
+	width: 315px;
+	height: 123px;
+	display: block;
+	float: left;
+}
+.small-picture1{
+	width: 315px;
+	height: 150px;
+	display: block;
+	float: left;
+}
+
