@@ -1,27 +1,49 @@
 body{
 	margin:0px;
-	padding: 0px;
+	padding: 56px 0 0 0;
 }
-.main{
-	width: 1366px;
-	height: 500px;
-	margin-right: auto;
-	margin-left: auto;
+
+@media (min-width: 768px){
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px){
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1081px){
+	.container {
+		width: 960px;
+	}
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*去掉浏览器下input和textarea的聚焦边框：*/
 input,button,select,textarea{outline:none}
-
-.top-bar{
-	height: 54px;
+.nav{
+	background-color: white;
+	position: fixed;
+	top:0;
+	width: 100%;
 	border: 1px solid #F0F0F0;
+}
+.top-bar{
+	float: left;
+	height: 54px;
 	margin: 0px;
 }
 .logo{
 	height: 54px;
-	width: 207px;
 	float: left;
-	margin: 0px;
+	margin-right: 20px;
 
 }
 .logo img{
@@ -32,10 +54,8 @@ input,button,select,textarea{outline:none}
 }
 .center-content{
 	height: 54px;
-	width: 945px;
 	float: left;
 	margin: 0px;
-
 }
 .home-page{
 	text-decoration: none;
@@ -54,9 +74,14 @@ input,button,select,textarea{outline:none}
 	width: 200px;
 	margin-left: 35px;
 	background-color: #EEEEEE;
+
+	/*在定义兼容各个浏览器时，最初属性也要写上*/
+	border-radius: 17.5px; 
 	-webkit-border-radius:17.5px;
 	-moz-border-radius:17.5px;
-	border-style: none;  /*去掉边框*/
+
+	/*去掉边框*/
+	border-style: none;  
 	font-size: 16px;
 	padding: 0 15px;
 }
@@ -74,30 +99,28 @@ input,button,select,textarea{outline:none}
 .font{
 	color: #A5A5A5;
 	font-size: 20px;
-	margin-left: 410px;
 	font-weight: bold;
+	line-height: 40px;
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
 .login{
 	color: #A5A5A5;
 	font-size: 15px;
-	margin-left: 25px;
+	line-height: 40px;
 	text-decoration: none;
 	font-weight: bold;
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
-.button-container{
-	float: left;
-	width: 200px;
-	height: 54px;
-	position: relative;
-
+.float-right{
+	margin: 7px 6px 0 10px;
+	float: right;
 }
 .register{
 	background-color: white;
 	border: 1px solid #ea6F5a;
+	margin-left: 25px;
 	height: 40px;
 	width: 81px;
 	text-align: center;
@@ -108,8 +131,8 @@ input,button,select,textarea{outline:none}
 	font-weight: bold;
 	/*增加鼠标小手*/
 	cursor: pointer;
-	margin-top: 7px;
 	/*不明白为什么修改这里的margin-top后面的写文章也跟着修改*/
+	/*对于行内块级元素，整体行的基准线是一致的，改变任一个元素的垂直位置，就改变了整个行的位置*/
 	
 }
 .register:hover{
@@ -118,6 +141,7 @@ input,button,select,textarea{outline:none}
 .write-page{
 	background-color: #ea6F5a;
 	border: 1px solid #ea6F5a;
+	margin-right: 15px;
 	height: 39px;
 	width: 100px;
 	text-align: center;
@@ -126,33 +150,37 @@ input,button,select,textarea{outline:none}
 	border-radius: 5px;
 	text-decoration: none;
 	color: white;
-	margin-left: 5px;
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
-.text-center{
-	width: 945px;
-	height: 273px;
-	margin: 0 auto;
-	padding: 0px;
 
+.text-center{
+	width: 100%;
+	height: 272px;
+}
+.banner-left{
+	float: left;
+	height: 100%;
+	width: 66.5%;
+}
+.banner-right{
+	float: right;
+	height: 100%;
+	width: 33.5%;
+	margin: 0;
+	padding: 0;
+}
+.banner-right-item{
+	width: 100%;
+	height: 50%;
 }
 .main-picture{
-	width: 630px;
-	height: 273px;
-	display: block;
-	float: left;
+	width: 100%;
+	height: 100%;
 }
 .small-picture{
-	width: 315px;
-	height: 123px;
-	display: block;
-	float: left;
+	width: 100%;
+	height: 100%;
 }
-.small-picture1{
-	width: 315px;
-	height: 150px;
-	display: block;
-	float: left;
-}
+
 
