@@ -4,7 +4,6 @@ body{
 }
 .main{
 	width: 1366px;
-	height: 500px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -14,15 +13,13 @@ input,button,select,textarea{outline:none}
 
 .top-bar{
 	height: 54px;
-	border: 1px solid #F0F0F0;
-	margin: 0px;
+	border: 1px solid #F0F0F0;	
 }
 .logo{
 	height: 54px;
-	width: 207px;
+	width: 100px;
 	float: left;
-	margin: 0px;
-
+	/*margin: 0px;*/
 }
 .logo img{
 	height: 26px;
@@ -32,27 +29,55 @@ input,button,select,textarea{outline:none}
 }
 .center-content{
 	height: 54px;
-	width: 945px;
+	width: 1030px;
 	float: left;
-	margin: 0px;
+	/*margin: 0px;*/
 
+}
+.shouye{
+	width: 65px;
+	margin-left: 92px;
+	float: left;	
 }
 .home-page{
 	text-decoration: none;
 	color: #ea6F5a;
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 54px;
+	
+	/*字体不会设置*/
+}
+.xiazai{
+	float: left; 
+	width: 95px;
+	height: 54px;
+	margin-left: 10px;
+	text-align: center;	
 }
 .downlode{
+	width: 95px;
+	height: 54px;
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	margin-left: 35px;
+	line-height: 54px;
+	
+
+}
+.xiazai:hover{
+	background-color: #F5F5F5;
+
+}
+.sousu{
+	width: 300px;
+	height: 54px;
+	float: left;
+	padding-left: 20px;
+	line-height: 54px;
 }
 .find{
 	height: 35px;
-	width: 200px;
-	margin-left: 35px;
+	width: 200px;	
 	background-color: #EEEEEE;
 	-webkit-border-radius:17.5px;
 	-moz-border-radius:17.5px;
@@ -74,19 +99,32 @@ input,button,select,textarea{outline:none}
 .font{
 	color: #A5A5A5;
 	font-size: 20px;
-	margin-left: 410px;
 	font-weight: bold;
 	/*增加鼠标小手*/
 	cursor: pointer;
 }
+.zi{
+	width: 50px;
+	float: left;
+	line-height: 54px;
+	margin-left: 320px;
+	text-align: center;
+}
+.denglu{
+	width: 50px;
+	float: left;
+	line-height: 54px;
+	text-align: center;
+}
 .login{
 	color: #A5A5A5;
 	font-size: 15px;
-	margin-left: 25px;
+	
 	text-decoration: none;
 	font-weight: bold;
 	/*增加鼠标小手*/
 	cursor: pointer;
+	text-align: center;
 }
 .button-container{
 	float: left;
@@ -156,3 +194,38 @@ input,button,select,textarea{outline:none}
 	float: left;
 }
 
+
+.recommed{
+	width: 630px;
+	height: 104px;
+	border: 1px solid #F0F0F0 ;
+	margin-top: 40px;
+	margin-left: 212px;
+
+}
+.cataloga{
+	float: left;
+	width: 112px;
+	height: 34px;
+	border: 1px solid #F0F0F0;
+	text-decoration: none;
+	color: black;
+	background-color: #F7F7F7;
+	border-radius: 3px;
+	font-size: 15px;
+	
+}
+
+.three{
+	line-height: 34px;
+}
+
+
+.cataloga img{
+	width: 32px;
+	height: 34px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	
+	
+}
