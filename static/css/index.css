@@ -33,18 +33,61 @@ body{
 }
 .active{
 	width: 34px;
-	height: 26px;
-	padding: 15px;
-	direction: none;
-}
+	height: 19px;
+	padding: 19.5px 15px;
+	display: block;
+	float: left;
 
-.menu-text{
-	height: 26px;
-	width: 34px;
-	font-size: 17px;
-	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+.home-page{
+	text-decoration: none;
 	color: rgb(234, 111, 90);
-	display: line;
-	direction: none;
-}
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	font-size: 17px;
 
+}
+.download{
+	width: 63px;
+	height: 19px;
+	float: left;
+	padding: 19.5px 15px;
+	margin-left: 10px;
+	
+}
+.app{
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.download:hover{
+	background-color: #F5F5F5;
+}
+.import{
+	width: 175px;
+	height: 58px;
+	float: left;
+	margin-left: 20px;
+	line-height: 58px;
+}
+.find{
+	width: 140px;
+	height: 35px;
+	background-color: #EEEEEE;
+	border-style: none;
+	border-radius: 17.5px; 
+	-webkit-border-radius:17.5px;
+	-moz-border-radius:17.5px;
+	font-size: 16px;
+	outline: none;
+	padding-left: 15px;
+
+}
+.find::-webkit-input-placeholder {
+	color: #A5A5A5;
+	font-size: 16px;
+}
+.find::-moz-placeholder {
+	color: #A5A5A5;
+	font-size: 16px;
+}
