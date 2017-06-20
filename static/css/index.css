@@ -91,3 +91,79 @@ body{
 	color: #A5A5A5;
 	font-size: 16px;
 }
+.font{
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-right: 15px;
+	padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+.font span{
+	
+	font-size: 20px;
+	color: rgb(150,150,150);
+	font-weight: bolder;
+	
+}
+.log-in{
+	padding: 6px 12px;
+	width: 50px;
+	height: 34px;
+	float: right;
+	margin-right: 10px;
+	
+}
+.log-in a{
+	text-decoration: none;
+}
+.log-in span{
+	color:rgb(150,150,150);
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: bolder;
+	
+}
+.write{
+	float: right;
+	width: 100px;
+	height: 58px;
+	margin-right: 20px;
+}
+.write-passage{
+	width: 100px;
+	height: 38px;
+	background-color: rgb(236, 97, 73);
+	border-style: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 15px;
+	margin-top: 8px;
+	cursor: pointer;
+	outline: none;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+.register{
+	float: right;
+	margin-right: 20px;
+	width: 80px;
+	height: 58x;
+}
+.zhuce{
+	width: 80px;
+	height: 38px;
+	border: 1px solid rgb(236, 97, 73);
+	background-color: white;
+	color: rgb(236, 97, 73);
+	font-size: 15px;
+	margin-top: 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+.zhuce:hover{
+	background-color: #FEF7F6;
+}
