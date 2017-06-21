@@ -6,6 +6,7 @@ body{
 	width: 100%;
 	height: 56px;
 	border: 1px solid #f0f0f0;
+
 }
 .logo{
 	padding: 14px 25px 15px 20px;
@@ -131,7 +132,7 @@ body{
 	float: right;
 	width: 100px;
 	height: 58px;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 .write-passage{
 	width: 100px;
@@ -148,7 +149,7 @@ body{
 }
 .register{
 	float: right;
-	margin-right: 20px;
+	margin-right: 10px;
 	width: 80px;
 	height: 58x;
 }
@@ -167,3 +168,50 @@ body{
 .zhuce:hover{
 	background-color: #FEF7F6;
 }
+.picture{
+	width: 947px;
+	height: 273px;
+	margin: 0px auto;
+}
+.pict-left img{
+	float: left;
+	width: 631px;
+}
+.pict-right-top img{
+	float: right;
+	width: 316px;
+	height: 136px;
+}
+.pict-right-bottom img{
+	float: right;
+	width: 316px;
+	height: 137px;
+}
+.recommend-collection{
+	width: 625px;
+	height: 104px;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+.recommend-collection a{
+	text-decoration: none;
+}
+.first{
+	width: 110px;
+	height: 32px;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 3px;
+	background-color: #F7F7F7;
+	margin-right: 18px;
+	margin-bottom: 18px;
+}
+.first img{
+	width: 32px;
+}
+.first span{
+	font-size: 15px;
+	color: black;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	display: inline-block;
+
+}	
