@@ -195,23 +195,95 @@ body{
 }
 .recommend-collection a{
 	text-decoration: none;
+	
+	
 }
 .first{
 	width: 110px;
 	height: 32px;
 	border: 1px solid rgb(220, 220, 220);
-	border-radius: 3px;
+	border-radius: 5px;
 	background-color: #F7F7F7;
 	margin-right: 18px;
 	margin-bottom: 18px;
+	overflow: hidden;
+	display: inline-block;
 }
 .first img{
 	width: 32px;
 }
-.first span{
-	font-size: 15px;
+.first div{
+	font-size: 14px;
 	color: black;
 	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	
+	line-height: 32px;
+	float: right;
+	padding:0px 7px;
+	
+}
+.second{
+	width: 130px;
+	height: 32px;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 5px;
+	background-color: #F7F7F7;
+	margin-right: 18px;
+	margin-bottom: 18px;
+	overflow: hidden;
 	display: inline-block;
-
 }	
+.second img{
+	width: 32px;
+}
+.second div{
+	font-size: 14px;
+	color: black;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	
+	line-height: 32px;
+	float: right;
+	padding:0px 7px;
+	
+}
+.third{
+	width: 70px;
+	height: 32px;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 5px;
+	background-color: #F7F7F7;
+	margin-right: 18px;
+	margin-bottom: 18px;
+	overflow: hidden;
+	display: inline-block;
+}	
+.third img{
+	width: 32px;
+}
+.third div{
+	font-size: 14px;
+	color: black;
+	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	
+	line-height: 32px;
+	float: right;
+	padding:0px 8px;
+	
+}
+.title-bar{
+	width: 280px;
+	height:838px;
+	position: absolute;
+	top: 332px;
+	left: 870px;
+	margin-top: 40px;
+}
+.bar{
+	width: 280px;
+	height: 50px;
+	margin-bottom: 5px;
+}
+.last{
+	width: 280px;
+	height: 140px;
+}
