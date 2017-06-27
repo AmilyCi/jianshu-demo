@@ -304,6 +304,10 @@ body{
 	height: 50px;
 	margin-bottom: 5px;
 }
+.title-bar-download{
+	width: 280px;
+	height: 140px;
+}
 .last{
 	width: 280px;
 	height: 140px;
@@ -313,9 +317,9 @@ body{
 	height: 37px;
 	background-color: #A5A5A5;
 	border-radius: 5px;
-	position: absolute;
-	left: 16px;
-	top: 380px;
+	position: relative;
+	top: -53px;
+	left: 10px;
 }
 .scan-code span{
 	color: white;
@@ -333,9 +337,9 @@ body{
 	height: 37px;
 	background-color: rgb(139,196,83);
 	border-radius: 5px;
-	position: absolute;
+	position: relative;
+	top: -90px;
 	left: 100px;
-	top: 380px;
 }
 .android-download span{
 	color: white;
@@ -353,9 +357,9 @@ body{
 	height: 37px;
 	background-color: #6DACF4;
 	border-radius: 5px;
-	position: absolute;
-	left: 187px;
-	top: 380px;
+	position: relative;
+	left: 190px;
+	top: -127px;
 }
 .ios-download span{
 	color: white;
@@ -365,6 +369,89 @@ body{
 	text-align: center;
 	width: 100%;
 	display: inline-block;
+	cursor: pointer;
+
+}
+.passage{
+	width: 625px;
+	height: 200px;
+	border-top: solid 1px #F0F0F0;
+	position: relative;
+	left: 200px;
+	top: 80px;
+	padding-top: 5px;
+}
+.passage-text{
+	width: 70%;
+	height: 200px;
+	float: left;
+}
+
+.headshot{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+.name{
+	font-size: 12px;
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	cursor: pointer;
+}
+.time{
+	font-size: 12px;
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	color: #969696;
+}
+.passage-title {
+	font-weight: bold;
+	font-family: -apple-system, 'SF UI Display', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+.passage-title:hover{
+	text-decoration: underline;
+}
+.passage-content{
+	font-size: 14px;
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	margin: 7px 0px;
+	line-height: 24px;
+	color: #333333;
+}
+.passage-buttom button{
+	outline: none;
+	border: 1px solid rgb(236, 97, 73);
+	background-color: white;
+	color: rgb(236, 97, 73);
+	border-radius: 3px;
+	cursor: pointer;
+	direction: none;
+}
+.passage-buttom button:hover{
+	background-color: #FEF7F6;
+}
+.through{
+	display: inline;
+	background: url(img_yanjingqian.jpg);
+	
+}
+
+.passage-picture{
+	width: 30%;
+	height: 200px;
+	float: right;
+
+}
+.passage-picture img{
+	width: 150px;
+	height: 120px;
+	border-radius: 3px;
+	position: relative;
+	left: 35px;
+	top: 40px;
 	cursor: pointer;
 
 }
