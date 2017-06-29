@@ -430,6 +430,9 @@ body{
 	cursor: pointer;
 	direction: none;
 }
+.passage-buttom a{
+	text-decoration: none;
+}
 .passage-buttom button:hover{
 	background-color: #FEF7F6;
 }
@@ -443,7 +446,7 @@ body{
 	background-image: url('../img/yanjingqian.jpg');
 	cursor: pointer;
 }
-.throught:hover{
+.through:hover{
 	display: inline-block;
 	position: relative;
 	left: 6px;
@@ -452,6 +455,45 @@ body{
 	height: 15px;
 	background-image: url('../img/yanjingjiashen.jpg');
 	cursor: pointer;
+}
+.talk{
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	top: 3px;
+	width: 40px;
+	height: 15px;
+	background-image: url('../img/duihuaqian.jpg');
+	cursor: pointer;
+}
+.talk:hover{
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	top: 3px;
+	width: 40px;
+	height: 15px;
+	background-image: url('../img/duihuajiashen.jpg');
+	cursor: pointer;
+}
+.zan{
+	display: inline-block;
+	position: relative;
+	left: 13px;
+	top: 3px;
+	width: 40px;
+	height: 15px;
+	background-image: url('../img/20170627215445.jpg');
+	
+}
+.givemoney{
+	display: inline-block;
+	position: relative;
+	left: 16px;
+	top: 3px;
+	width: 30px;
+	height: 15px;
+	background-image: url('../img/20170627215503.jpg');
 }
 
 .passage-picture{
