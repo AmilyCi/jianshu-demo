@@ -434,9 +434,24 @@ body{
 	background-color: #FEF7F6;
 }
 .through{
-	display: inline;
-	background: url(img_yanjingqian.jpg);
-	
+	display: inline-block;
+	position: relative;
+	left: 6px;
+	top: 3px;
+	width: 48px;
+	height: 15px;
+	background-image: url('../img/yanjingqian.jpg');
+	cursor: pointer;
+}
+.throught:hover{
+	display: inline-block;
+	position: relative;
+	left: 6px;
+	top: 3px;
+	width: 48px;
+	height: 15px;
+	background-image: url('../img/yanjingjiashen.jpg');
+	cursor: pointer;
 }
 
 .passage-picture{
