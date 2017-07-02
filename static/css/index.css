@@ -372,6 +372,45 @@ body{
 	cursor: pointer;
 
 }
+.recommend{
+	width: 280px;
+	height: 329px;
+	position: relative;
+	top: 30px;
+}
+.recommend-title{
+	width: 280px;
+	height: 18px;
+}
+.recommend-title span{
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	color: rgb(150, 150, 150);
+	font-size: 14px;
+}
+.reload{
+	width: 86px;
+	height: 18px;
+	float: right;
+}
+.page-count{
+	color: rgb(150, 150, 150);
+	font-size: 14px;
+	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	display: inline-block;
+}
+.page-change{
+	width: 40px;
+	height: 18px;
+	border-radius: 3px;
+	border:1px solid rgb(150, 150, 150);
+	float: right;
+}
+.list{
+	width: 280px;
+	height: 295px;
+	padding:0px;
+	direction: none;
+}
 .passage{
 	width: 625px;
 	height: 200px;
