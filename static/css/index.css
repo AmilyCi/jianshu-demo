@@ -179,8 +179,9 @@ body{
 	margin: 0px auto;
 	position:relative;
 	top: 57px;
+
 }
-.pict-left img{
+#pict-left img{
 	float: left;
 	width: 631px;
 }
@@ -456,6 +457,10 @@ body{
 	color: rgb(66, 192, 46);
 	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 	font-size: 12px;
+	float: right;
+	position: relative;
+	left: -56px;
+	top: -21px;
 	
 	
 }
@@ -468,7 +473,7 @@ body{
 	text-decoration: none;
 	border-radius: 3px;
 	font-size: 14px;
-	padding: 7px 97px;
+	padding: 7px 107px;
 	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 }
 .passage{
@@ -609,5 +614,18 @@ body{
 	left: 35px;
 	top: 40px;
 	cursor: pointer;
+
+}
+.side-tool{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 52px;
+	height: 52px;
+	border: 1px solid #dcdcdc;
+	color: gray;
+	font-size: 10px;
+	line-height: 52px;
+	text-align: center;
 
 }
