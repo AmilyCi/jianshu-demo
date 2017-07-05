@@ -2,11 +2,28 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
-@media screen and(max-width: 1362px) {
-	.top-center{
-		width: 80%
+@media screen and (min-width: 1080px;){
+	#picture{
+		width: 735px;
+		height: 212px;
+		margin:0px auto;
 	}
-	
+	.pict-left{
+		width: 490px;
+		height: 212px;
+		float: left;
+		
+	}
+	.pict-right-top{
+		width: 245px;
+		height: 106px;
+		float: right;
+	}
+	.pict-right-bottom{
+		width: 245px;
+		height: 106px;
+		float: right;
+	}
 }
 .top{
 	width: 100%;
@@ -29,9 +46,9 @@ body{
 	outline: none;
 }
 .top-center{
-	width: 945px;
+	width: 1150px;
 	height: 58px;
-	margin: 0px auto;
+	float: right;
 
 
 }
@@ -143,7 +160,8 @@ body{
 	float: right;
 	width: 100px;
 	height: 58px;
-	margin-right:30px; 
+	margin-right:20px;
+	margin-left: 20px; 
 	
 }
 .write-passage{
@@ -155,8 +173,7 @@ body{
 	color: white;
 	font-size: 15px;
 	margin-top: 8px;
-	margin-left: 15px;
-	margin-right: 30px;
+	
 	cursor: pointer;
 	outline: none;
 	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
