@@ -49,12 +49,14 @@ body{
 	outline: none;
 }
 .top-center{
-	width: 1150px;
+	width: 946px;
 	height: 58px;
-	float: right;
-
-
+	margin: 0px auto;
 }
+.icon-menu{
+	display: none;
+}
+
 .top-center ul{
 	width: 362px;
 	height: 58px;
@@ -78,6 +80,9 @@ body{
 	font-size: 17px;
 
 }
+.icon-index{
+	display: none;
+}
 .download{
 	width: 70px;
 	height: 19px;
@@ -85,6 +90,9 @@ body{
 	padding: 19.5px 15px;
 	margin-left: 10px;
 	
+}
+.icon-download{
+	display: none;
 }
 .app{
 	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
@@ -126,13 +134,13 @@ body{
 .font{
 	width: 24px;
 	height: 24px;
-	float: right;
 	margin-right: 15px;
 	padding-bottom: 17px;
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 17px;
     cursor: pointer;
+    display: inline;
 }
 .font span{
 	
@@ -145,8 +153,8 @@ body{
 	padding: 6px 12px;
 	width: 50px;
 	height: 34px;
-	float: right;
 	margin-right: 10px;
+	display: inline;
 	
 }
 .log-in a{
@@ -159,13 +167,15 @@ body{
 	font-weight: bolder;
 	
 }
-.write{
+.top-button{
 	float: right;
-	width: 100px;
-	height: 58px;
-	margin-right:20px;
-	margin-left: 20px; 
-	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.write{
+	display: inline;
+	text-decoration: none;
 }
 .write-passage{
 	width: 100px;
@@ -176,16 +186,14 @@ body{
 	color: white;
 	font-size: 15px;
 	margin-top: 8px;
-	
+	margin-right: 15px;
 	cursor: pointer;
 	outline: none;
 	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 }
 .register{
-	float: right;
-	
-	width: 80px;
-	height: 58x;
+	display: inline;
+	text-decoration: none;	
 }
 .zhuce{
 	width: 80px;
@@ -195,6 +203,7 @@ body{
 	color: rgb(236, 97, 73);
 	font-size: 15px;
 	margin-top: 8px;
+	margin-right: 15px;
 	border-radius: 3px;
 	cursor: pointer;
 	font-family:-apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
@@ -202,18 +211,20 @@ body{
 .zhuce:hover{
 	background-color: #FEF7F6;
 }
-
+.contenter{
+	width: 946px;
+	margin: 0px auto;
+}
 .recommend-collection{
 	width: 625px;
 	height: 104px;
-	margin-left: 200px;
+	margin-bottom: 80px;
 	position:relative;
 	top: 57px;
+	float: left;
 }
 .recommend-collection a{
-	text-decoration: none;
-	
-	
+	text-decoration: none;		
 }
 .first{
 	width: 110px;
@@ -294,17 +305,15 @@ body{
 	font-size: 14px;
 	color: #787878;
 	font-family: -apple-system, 'SF UI Text', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-	display: block;
-	position: absolute;
-	top: 65px;
-	left: 420px;
+	display: inline;
+	position: relative;
+	top: -30px;
+
 }
 .title-bar{
 	width: 280px;
 	height:838px;
-	position: absolute;
-	top: 332px;
-	left: 870px;
+	float: right;
 	margin-top: 40px;
 }
 .bar{
@@ -385,6 +394,7 @@ body{
 	height: 329px;
 	position: relative;
 	top: 30px;
+
 }
 .recommend-title{
 	width: 280px;
@@ -486,11 +496,8 @@ body{
 .passage{
 	width: 625px;
 	height: 200px;
-	border-top: solid 1px #F0F0F0;
-	position: relative;
-	left: 200px;
-	top: 80px;
-	padding-top: 5px;
+	border-top: solid 1px #F0F0F0; 
+	float: left;
 }
 .passage-text{
 	width: 70%;
@@ -659,5 +666,143 @@ body{
 		width: 245px;
 		height: 106px;
 		float: right;
+	}
+	.top-center{
+		width: 736px;
+		height: 58px;
+		margin: 0px auto;
+	}
+	.icon-index{
+		display: block;
+		width: 22px;
+		height: 22px;
+
+	}
+	.icon-download{
+		display: block;
+		width: 20px;
+		height: 27px;
+	}
+	.download{
+		width: 26px;
+		height: 26px;
+		float: left;
+		padding: 15px;
+		margin-left: 10px; 
+	}
+	.active {
+		width: 28px;
+		height: 22px;
+		padding: 17px 5px 17px 0px;
+		display: block;
+		float: left;
+	}
+	.menu-text{
+		display: none;
+	}
+	.download-app{
+		display: none;
+	}
+	.contenter{
+		width: 735px;
+		
+		margin:0px auto;
+
+	}
+	.recommend-collection{
+		width: 490px;
+		height: 212px;
+		float: left;
+	}
+	.passage{
+		width: 490px;
+		height: 212px;
+		float: left;
+	}
+	.passage-text {
+		width: 330px;
+	}
+	.passage-picture {
+		width: 30%;
+		height: 200px;
+		float: right;
+	}
+	.passage-picture img{
+		width: 150px;
+		height: 120px;
+		border-radius: 3px;
+		position: relative;
+		left: 0px;
+		top: 40px;
+		cursor: pointer;
+
+	}
+	.recommend{
+		width: 220px;
+		
+		float: right;
+	}
+	.recommend-title{
+		width: 220px;
+	}
+	.list-follow {
+		position: relative;
+		left: -120px;
+		top: -21px;
+	}
+	.look-more{
+		padding: 7px 77px;
+	}
+	.bar{
+		width: 220px;
+		height: 40px;
+		
+	}
+	.title-bar{
+		width: 220px;
+		float: right;
+	}
+	.last{
+		width: 220px;
+		height: 110px;
+		
+	}
+	.scan-code{
+		width: 57px;
+		height: 32px;
+	}
+	.android-download{
+		width: 57px;
+		height: 32px;
+		position: relative;
+		top: -85px;
+		left: 80px;
+	}
+	.ios-download {
+		width: 57px;
+		height: 32px;
+		position: relative;
+		left: 151px;
+		top: -117px;
+	}
+}
+@media screen and (max-width: 860px){
+	.picture{
+		margin-left: 25px;
+	}
+	.contenter{
+		margin-left: 25px;
+	}
+
+}
+@media screen and (max-width: 844px){
+	.icon-menu{
+		display: block;
+		width: 50px;
+		height: 52px;
+		padding-top: 2px;
+	}
+	.top-center ul{
+		display: none;
 	}
 }
