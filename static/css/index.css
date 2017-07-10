@@ -787,11 +787,15 @@ body{
 	}
 }
 @media screen and (max-width: 860px){
-	.picture{
+	#picture{
 		margin-left: 25px;
+
 	}
 	.contenter{
 		margin-left: 25px;
+	}
+	.top{
+		overflow: hidden;
 	}
 
 }
@@ -804,5 +808,9 @@ body{
 	}
 	.top-center ul{
 		display: none;
+	}
+	.top{
+		width: 844px;
+		
 	}
 }
